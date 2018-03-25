@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <title>Edutainment Hub</title>
+    
+    <style>
+      body  {background-color:green}
+      p  {border: 5px solid steelblue;
+      padding:10px;
+      margin:30px; }
+      
+      div  {
+      width: 320px;
+      padding: 10px;
+      border: 5px solid Turquoise;
+      }
+      
+      ul  {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      }
+      li a{
+      display: block;
+      color: #000;
+      padding: 8px 0 8px 16px;
+      text-decoration: none;
+      }
+      
+      li a.active {
+      background-color: steelblue;
+      color : white;
+      }
+      
+      li a:hover :not (.active)  {
+      background-color: turquoise;
+      color:white;
+      }
+      <img src="img_beautiful.jpg" alt="Beatiful Picture"
+           width=250" height="250">
+    
+    </style>
+  </head>
+    
+   <body>
+  
+  <div style="color: red">
+    <h1 style="color:blue">Welcome to Edutainment</h1>
+    <p> We seek to provide<b> news and  information</b> to the society<br> thereby keeping pace with developmental issues.</p>
+	</div>     
+	
+    <p style="font-family:PT Serif"> There has been a rise of <i>information hubs</i> online and <br>we are glad to be part of it. Media diversity is a characteristic of development in a nation.</p>
+     
+     <ul>
+       <li> <a class="active" href="#home">Home</a></li>
+       <li><a href="#content">Content</a></li>
+       <li><a href="#contact">Contact</a></li>
+       <li><a href="#about">About</a></li>
+     </ul>
+    
+    </body>
+      
+      </html>
+    
